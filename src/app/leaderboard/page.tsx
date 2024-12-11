@@ -68,7 +68,7 @@ export default function Leaderboard() {
           </div>
             <div className="text-center">
             <div className="flex justify-center">
-              <img src="/crown.png" alt="Flag" className="absolute w-8 h-8" style={{ zIndex: 1 }} />
+              <img src="/crown.png" alt="Flag" className="absolute w-9 h-9" style={{ zIndex: 1 }} />
             </div>
             <Avatar className="w-20 h-20 border-4 border-white mb-2">
               <AvatarImage src={filteredData[0].image} alt={filteredData[0].name} />
