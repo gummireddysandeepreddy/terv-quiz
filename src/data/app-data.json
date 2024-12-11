@@ -1,0 +1,290 @@
+{
+  "quizzes": [
+    {
+      "id": 1,
+      "title": "A Basic Music Quiz",
+      "category": "Music",
+      "duration": "24m",
+      "icon": "🎵"
+    },
+    {
+      "id": 2,
+      "title": "Statistics Math Quiz",
+      "category": "Math",
+      "questionCount": 15,
+      "icon": "📊"
+    },
+    {
+      "id": 3,
+      "title": "Integers Quiz",
+      "category": "Math",
+      "questionCount": 10,
+      "icon": "🔢"
+    },
+    {
+      "id": 4,
+      "title": "Matrices Quiz",
+      "category": "Math",
+      "questionCount": 8,
+      "icon": "🔢"
+    },
+  {
+    "id": 5,
+    "title": "Geometry Quiz",
+    "category": "Math",
+    "questionCount": 12,
+    "icon": "📐"
+  },
+  {
+    "id": 6,
+    "title": "World History Quiz",
+    "category": "History",
+    "questionCount": 20,
+    "icon": "🌍"
+  },
+  {
+    "id": 7,
+    "title": "Chemistry Quiz",
+    "category": "Science",
+    "questionCount": 18,
+    "icon": "⚗️"
+  },
+  {
+    "id": 8,
+    "title": "Physics Quiz",
+    "category": "Science",
+    "questionCount": 22,
+    "icon": "🔭"
+  },
+  {
+    "id": 9,
+    "title": "Biology Quiz",
+    "category": "Science",
+    "questionCount": 16,
+    "icon": "🧬"
+  },
+  {
+    "id": 10,
+    "title": "Geography Quiz",
+    "category": "Geography",
+    "questionCount": 14,
+    "icon": "🗺️"
+  },
+  {
+    "id": 11,
+    "title": "Literature Quiz",
+    "category": "Literature",
+    "questionCount": 10,
+    "icon": "📚"
+  },
+  {
+    "id": 12,
+    "title": "Art Quiz",
+    "category": "Art",
+    "questionCount": 8,
+    "icon": "🎨"
+  },
+  {
+    "id": 13,
+    "title": "Computer Science Quiz",
+    "category": "Technology",
+    "questionCount": 25,
+    "icon": "💻"
+  },
+  {
+    "id": 14,
+    "title": "Sports Quiz",
+    "category": "Sports",
+    "questionCount": 15,
+    "icon": "🏅"
+  },
+  {
+    "id": 15,
+    "title": "General Knowledge Quiz",
+    "category": "General Knowledge",
+    "questionCount": 30,
+    "icon": "🌐"
+  }
+  ],
+  "friends": [
+    {
+      "id": 1,
+      "name": "Maren Workman",
+      "points": 890,
+      "image": "/placeholder-user.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Brandon Metrovs",
+      "points": 124,
+      "image": "/placeholder-user.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Manuela Lipshutz",
+      "points": 433,
+      "image": "/placeholder-user.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Madelyn Dias",
+      "points": 256,
+      "image": "/placeholder-user.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Zain Vaccaro",
+      "points": 248,
+      "image": "/placeholder-user.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Jordan",
+      "points": 200,
+      "image": "/placeholder-user.jpg"
+    }
+  ],
+  "leaderboard": [
+    {
+      "id": 1,
+      "name": "Davis",
+      "points": 1200,
+      "image": "/placeholder-user.jpg",
+      "rank": 1
+    },
+    {
+      "id": 2,
+      "name": "Alena",
+      "points": 1150,
+      "image": "/placeholder-user.jpg",
+      "rank": 2
+    },
+    {
+      "id": 3,
+      "name": "Craig",
+      "points": 1100,
+      "image": "/placeholder-user.jpg",
+      "rank": 3
+    },
+    {
+      "id": 4,
+      "name": "Madelyn Dias",
+      "points": 256,
+      "image": "/placeholder-user.jpg",
+      "rank": 4
+    },
+    {
+      "id": 5,
+      "name": "Zain Vaccaro",
+      "points": 248,
+      "image": "/placeholder-user.jpg",
+      "rank": 5
+    },
+    {
+      "id": 6,
+      "name": "Jordan",
+      "points": 200,
+      "image": "/placeholder-user.jpg",
+      "rank": 6
+    },
+    {
+      "id": 7,
+      "name": "Taylor",
+      "points": 180,
+      "image": "/placeholder-user.jpg",
+      "rank": 7
+    },
+    {
+      "id": 8,
+      "name": "Morgan",
+      "points": 160,
+      "image": "/placeholder-user.jpg",
+      "rank": 8
+    },
+    {
+      "id": 9,
+      "name": "Alex",
+      "points": 140,
+      "image": "/placeholder-user.jpg",
+      "rank": 9
+    },
+    {
+      "id": 10,
+      "name": "Riley",
+      "points": 120,
+      "image": "/placeholder-user.jpg",
+      "rank": 10
+    },
+    {
+      "id": 11,
+      "name": "Casey",
+      "points": 100,
+      "image": "/placeholder-user.jpg",
+      "rank": 11
+    },
+    {
+      "id": 12,
+      "name": "Jamie",
+      "points": 90,
+      "image": "/placeholder-user.jpg",
+      "rank": 12
+    },
+    {
+      "id": 13,
+      "name": "Avery",
+      "points": 80,
+      "image": "/placeholder-user.jpg",
+      "rank": 13
+    },
+    {
+      "id": 14,
+      "name": "Jordan",
+      "points": 70,
+      "image": "/placeholder-user.jpg",
+      "rank": 14
+    },
+    {
+      "id": 15,
+      "name": "Peyton",
+      "points": 60,
+      "image": "/placeholder-user.jpg",
+      "rank": 15
+    },
+    {
+      "id": 16,
+      "name": "Quinn",
+      "points": 50,
+      "image": "/placeholder-user.jpg",
+      "rank": 16
+    },
+    {
+      "id": 17,
+      "name": "Reese",
+      "points": 40,
+      "image": "/placeholder-user.jpg",
+      "rank": 17
+    },
+    {
+      "id": 18,
+      "name": "Skyler",
+      "points": 30,
+      "image": "/placeholder-user.jpg",
+      "rank": 18
+    },
+    {
+      "id": 19,
+      "name": "Tatum",
+      "points": 20,
+      "image": "/placeholder-user.jpg",
+      "rank": 19
+    },
+    {
+      "id": 20,
+      "name": "Emerson",
+      "points": 10,
+      "image": "/placeholder-user.jpg",
+      "rank": 20
+    }
+  ]
+}
+
