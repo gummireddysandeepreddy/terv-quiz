@@ -1,5 +1,4 @@
 'use client'
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Card } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { ChevronLeft, ChevronRight, Search } from 'lucide-react'
