@@ -8,7 +8,7 @@ export function BottomNav() {
   const pathname = usePathname()
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 max-w-md mx-auto bg-white border-t">
+    <nav className="fixed bottom-0 left-0 right-0 max-w-md mx-auto bg-white border-t lg:hidden">
       <div className="flex justify-around p-3">
         <Link href="/" className={`${pathname === "/" ? "text-[#6949FF]" : "text-gray-400"}`}>
           <Home className="w-6 h-6" />
