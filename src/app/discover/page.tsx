@@ -6,6 +6,7 @@ import { ChevronLeft, ChevronRight, Search } from 'lucide-react'
 import Link from "next/link"
 import appData from "@/data/app-data.json"
 import { useState } from "react"
+import { AvatarWithFlag } from "@/components/avatar-with-flag"
 
 export default function Discover() {
   const quizzes = appData.quizzes.slice(0, 3)
@@ -72,10 +73,10 @@ export default function Discover() {
         <div className="space-y-3">
           {filteredQuizzes.map((quiz) => (
             <QuizCard
-          key={quiz.id}
-          title={quiz.title}
-          subtitle={`${quiz.category} • ${quiz.questionCount} Questions`}
-          icon={quiz.icon}
+              key={quiz.id}
+              title={quiz.title}
+              subtitle={`${quiz.category} • ${quiz.questionCount} Questions`}
+              icon={quiz.icon}
             />
           ))}
         </div>
@@ -88,10 +89,11 @@ export default function Discover() {
         <div className="space-y-4">
           {filteredFriends.map((friend) => (
             <FriendCard
-          key={friend.id}
-          name={friend.name}
-          points={`${friend.points} points`}
-          image={friend.image}
+              key={friend.id}
+              name={friend.name}
+              points={`${friend.points} points`}
+              image={friend.image}
+              flag={friend.flag}
             />
           ))}
         </div>
@@ -137,12 +139,13 @@ export default function Discover() {
           <h2 className="text-white font-medium mb-4">Friends</h2>
           <div className="space-y-4">
             {filteredFriends.map((friend) => (
-          <FriendCard
-            key={friend.id}
-            name={friend.name}
-            points={`${friend.points} points`}
-            image={friend.image}
-          />
+              <FriendCard
+                key={friend.id}
+                name={friend.name}
+                points={`${friend.points} points`}
+                image={friend.image}
+                flag={friend.flag}
+              />
             ))}
           </div>
         </section>
@@ -190,13 +193,15 @@ function CategoryCard({ icon, category }: { icon: string; category: string }) {
   )
 }
 
-function FriendCard({ name, points, image }: { name: string; points: string; image: string }) {
+function FriendCard({ name, points, image, flag }: { name: string; points: string; image: string; flag: string }) {
   return (
     <div className="flex items-center gap-3">
-      <Avatar className="w-10 h-10">
-        <AvatarImage src={image} alt={name} />
-        <AvatarFallback>{name[0]}</AvatarFallback>
-      </Avatar>
+      <AvatarWithFlag
+        src={image}
+        alt={name}
+        fallback={name[0]}
+        flag={flag}
+      />
       <div>
         <h3 className="text-white font-medium">{name}</h3>
         <p className="text-white/60 text-sm">{points}</p>
