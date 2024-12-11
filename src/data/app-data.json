@@ -111,179 +111,205 @@
       "id": 1,
       "name": "Maren Workman",
       "points": 890,
-      "image": "/placeholder-user.jpg"
+      "image": "/placeholder-user.png",
+      "flag": "/🇺🇸-flag.png"
     },
     {
       "id": 2,
       "name": "Brandon Metrovs",
       "points": 124,
-      "image": "/placeholder-user.jpg"
+      "image": "/placeholder-user.png",
+      "flag": "/🇺🇸-flag.png"
     },
     {
       "id": 3,
       "name": "Manuela Lipshutz",
       "points": 433,
-      "image": "/placeholder-user.jpg"
+      "image": "/placeholder-user.png",
+      "flag": "/🇺🇸-flag.png"
     },
     {
       "id": 4,
       "name": "Madelyn Dias",
       "points": 256,
-      "image": "/placeholder-user.jpg"
+      "image": "/placeholder-user.png",
+      "flag": "/🇺🇸-flag.png"
     },
     {
       "id": 5,
       "name": "Zain Vaccaro",
       "points": 248,
-      "image": "/placeholder-user.jpg"
+      "image": "/placeholder-user.png",
+      "flag": "/🇺🇸-flag.png"
     },
     {
       "id": 6,
       "name": "Jordan",
       "points": 200,
-      "image": "/placeholder-user.jpg"
+      "image": "/placeholder-user.png",
+      "flag": "/🇺🇸-flag.png"
     }
-  ],
-  "leaderboard": [
+    ],
+    "leaderboard": [
     {
       "id": 1,
       "name": "Davis",
       "points": 1200,
-      "image": "/placeholder-user.jpg",
-      "rank": 1
+      "image": "/placeholder-user.png",
+      "rank": 1,
+      "flag": "/🇺🇸-flag.png"
     },
     {
       "id": 2,
       "name": "Alena",
       "points": 1150,
-      "image": "/placeholder-user.jpg",
-      "rank": 2
+      "image": "/placeholder-user.png",
+      "rank": 2,
+      "flag": "/🇺🇸-flag.png"
     },
     {
       "id": 3,
       "name": "Craig",
       "points": 1100,
-      "image": "/placeholder-user.jpg",
-      "rank": 3
+      "image": "/placeholder-user.png",
+      "rank": 3,
+      "flag": "/🇺🇸-flag.png"
     },
     {
       "id": 4,
       "name": "Madelyn Dias",
       "points": 256,
-      "image": "/placeholder-user.jpg",
-      "rank": 4
+      "image": "/placeholder-user.png",
+      "rank": 4,
+      "flag": "/🇺🇸-flag.png"
     },
     {
       "id": 5,
       "name": "Zain Vaccaro",
       "points": 248,
-      "image": "/placeholder-user.jpg",
-      "rank": 5
+      "image": "/placeholder-user.png",
+      "rank": 5,
+      "flag": "/🇺🇸-flag.png"
     },
     {
       "id": 6,
       "name": "Jordan",
       "points": 200,
-      "image": "/placeholder-user.jpg",
-      "rank": 6
+      "image": "/placeholder-user.png",
+      "rank": 6,
+      "flag": "/🇺🇸-flag.png"
     },
     {
       "id": 7,
       "name": "Taylor",
       "points": 180,
-      "image": "/placeholder-user.jpg",
-      "rank": 7
+      "image": "/placeholder-user.png",
+      "rank": 7,
+      "flag": "/🇺🇸-flag.png"
     },
     {
       "id": 8,
       "name": "Morgan",
       "points": 160,
-      "image": "/placeholder-user.jpg",
-      "rank": 8
+      "image": "/placeholder-user.png",
+      "rank": 8,
+      "flag": "/🇺🇸-flag.png"
     },
     {
       "id": 9,
       "name": "Alex",
       "points": 140,
-      "image": "/placeholder-user.jpg",
-      "rank": 9
+      "image": "/placeholder-user.png",
+      "rank": 9,
+      "flag": "/🇺🇸-flag.png"
     },
     {
       "id": 10,
       "name": "Riley",
       "points": 120,
-      "image": "/placeholder-user.jpg",
-      "rank": 10
+      "image": "/placeholder-user.png",
+      "rank": 10,
+      "flag": "/🇺🇸-flag.png"
     },
     {
       "id": 11,
       "name": "Casey",
       "points": 100,
-      "image": "/placeholder-user.jpg",
-      "rank": 11
+      "image": "/placeholder-user.png",
+      "rank": 11,
+      "flag": "/🇺🇸-flag.png"
     },
     {
       "id": 12,
       "name": "Jamie",
       "points": 90,
-      "image": "/placeholder-user.jpg",
-      "rank": 12
+      "image": "/placeholder-user.png",
+      "rank": 12,
+      "flag": "/🇺🇸-flag.png"
     },
     {
       "id": 13,
       "name": "Avery",
       "points": 80,
-      "image": "/placeholder-user.jpg",
-      "rank": 13
+      "image": "/placeholder-user.png",
+      "rank": 13,
+      "flag": "/🇺🇸-flag.png"
     },
     {
       "id": 14,
       "name": "Jordan",
       "points": 70,
-      "image": "/placeholder-user.jpg",
-      "rank": 14
+      "image": "/placeholder-user.png",
+      "rank": 14,
+      "flag": "/🇺🇸-flag.png"
     },
     {
       "id": 15,
       "name": "Peyton",
       "points": 60,
-      "image": "/placeholder-user.jpg",
-      "rank": 15
+      "image": "/placeholder-user.png",
+      "rank": 15,
+      "flag": "/🇺🇸-flag.png"
     },
     {
       "id": 16,
       "name": "Quinn",
       "points": 50,
-      "image": "/placeholder-user.jpg",
-      "rank": 16
+      "image": "/placeholder-user.png",
+      "rank": 16,
+      "flag": "/🇺🇸-flag.png"
     },
     {
       "id": 17,
       "name": "Reese",
       "points": 40,
-      "image": "/placeholder-user.jpg",
-      "rank": 17
+      "image": "/placeholder-user.png",
+      "rank": 17,
+      "flag": "/🇺🇸-flag.png"
     },
     {
       "id": 18,
       "name": "Skyler",
       "points": 30,
-      "image": "/placeholder-user.jpg",
-      "rank": 18
+      "image": "/placeholder-user.png",
+      "rank": 18,
+      "flag": "/🇺🇸-flag.png"
     },
     {
       "id": 19,
       "name": "Tatum",
       "points": 20,
-      "image": "/placeholder-user.jpg",
-      "rank": 19
+      "image": "/placeholder-user.png",
+      "rank": 19,
+      "flag": "/🇺🇸-flag.png"
     },
     {
       "id": 20,
       "name": "Emerson",
       "points": 10,
-      "image": "/placeholder-user.jpg",
-      "rank": 20
+      "image": "/placeholder-user.png",
+      "rank": 20,
+      "flag": "/🇺🇸-flag.png"
     }
   ]
 }
