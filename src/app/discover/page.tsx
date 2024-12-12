@@ -8,17 +8,24 @@ import { useState } from "react"
 import { AvatarWithFlag } from "@/components/avatar-with-flag"
 
 export default function Discover() {
-  const quizzes = appData.quizzes.slice(0, 3)
-  const friends = appData.friends.slice(0, 3)
   const [activeTab, setActiveTab] = useState('Top');
+  const [searchTerm, setSearchTerm] = useState('');
+
+  // Filter data outside the render function
+  const filteredQuizzes = appData.quizzes.filter(quiz => quiz.title.toLowerCase().includes(searchTerm.toLowerCase()));
+  const filteredFriends = appData.friends.filter(friend => friend.name.toLowerCase().includes(searchTerm.toLowerCase()));
+  const filteredCategories = [...new Set(appData.quizzes.map((quiz) => ({ category: quiz.category, icon: quiz.icon })))]
+    .filter(category => {
+      return category.category.toLowerCase().includes(searchTerm.toLowerCase())
+    });
 
   const handleTabClick = (tab: string) => {
     setActiveTab(tab);
   };
 
-  const filteredQuizzes = activeTab === 'Quiz' ? appData.quizzes : quizzes;
-  const filteredFriends = activeTab === 'Friends' ? appData.friends : friends;
-  const categories = [...new Set(appData.quizzes.map((quiz) => ({ category: quiz.category, icon: quiz.icon })))];
+  const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchTerm(e.target.value);
+  };
   return (
     <main className="p-4 pb-20 lg:p-8 lg:pb-8">
       <div className="flex items-center gap-4 mb-6">
@@ -32,7 +39,9 @@ export default function Discover() {
         <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" />
         <Input
           className="bg-white/20 border-none text-white pl-10 placeholder:text-white/60"
-          placeholder="Hi!"
+          placeholder="Search..."
+          value={searchTerm}
+          onChange={handleSearch}
         />
       </div>
 
@@ -103,7 +112,7 @@ export default function Discover() {
           <section>
         <h2 className="text-white font-medium mb-4 space-y-4">Categories</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          {categories.map((category, index) => (
+          {filteredCategories.map((category, index) => (
             <div key={index} className="text-white">
             <CategoryCard
               icon={category.icon}
@@ -123,7 +132,7 @@ export default function Discover() {
             <Link href="#" className="text-white/80 text-sm" onClick={() => handleTabClick('Quiz')}>See all</Link>
           </div>
           <div className="space-y-3">
-            {filteredQuizzes.map((quiz) => (
+            {filteredQuizzes.slice(1,4).map((quiz) => (
           <QuizCard
             key={quiz.id}
             title={quiz.title}
@@ -137,7 +146,7 @@ export default function Discover() {
         <section>
           <h2 className="text-white font-medium mb-4">Friends</h2>
           <div className="space-y-4">
-            {filteredFriends.map((friend) => (
+            {filteredFriends.slice(1,4).map((friend) => (
               <FriendCard
                 key={friend.id}
                 name={friend.name}
