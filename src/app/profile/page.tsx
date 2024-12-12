@@ -38,8 +38,10 @@ export default function Profile() {
           <AvatarImage src="/avatar/profile.svg" alt="Madelyn" />
           <AvatarFallback>MD</AvatarFallback>
         </Avatar>
-        <div className="relative flex justify-center">
-          <img src="/avatar/profile-flag.svg" alt="Flag" className="absolute bottom-0 w-6 h-6" />
+        <div className="relative bottom-9 left-7 flex justify-center text-center">
+          <div className="absolute overflow-hidden w-6 h-6 border-2 border-white">
+            <img src="/avatar/profile-flag.svg" alt="" />
+          </div>
         </div>
         <h1 className="text-white text-xl font-semibold">Madelyn Dias</h1>
       </div>

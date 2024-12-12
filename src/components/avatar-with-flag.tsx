@@ -18,11 +18,8 @@ export function AvatarWithFlag({ src, alt, fallback, flag }: AvatarWithFlagProps
         <AvatarImage src={src} alt={alt} />
         <AvatarFallback>{fallback}</AvatarFallback>
       </Avatar>
-      <div className="absolute bottom-0 right-0 rounded-full overflow-hidden w-4 h-4 border-2 border-white">
-        <Avatar>
-          <AvatarImage src={flag} alt={alt} />
-          <AvatarFallback>F</AvatarFallback>
-        </Avatar>
+      <div className="absolute bottom-0 right-0 overflow-hidden w-3 h-3">
+        <img src={flag} alt="" />
       </div>
     </div>
   )
