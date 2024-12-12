@@ -8,10 +8,6 @@ interface AvatarWithFlagProps {
 }
 
 export function AvatarWithFlag({ src, alt, fallback, flag }: AvatarWithFlagProps) {
-    console.log("src", src);
-    console.log("alt", alt);
-    console.log("fallback", fallback);
-    console.log("flag", flag);
   return (
     <div className="relative">
       <Avatar>
