@@ -16,7 +16,7 @@ export default function Home() {
           <h1 className="text-white text-xl font-semibold">Madelyn Dias</h1>
         </div>
         <Avatar className="w-10 h-10">
-          <AvatarImage src="/placeholder-user.png" alt="Madelyn" />
+          <AvatarImage src="/avatar/profile.svg" alt="Madelyn" />
           <AvatarFallback>MD</AvatarFallback>
         </Avatar>
       </div>
