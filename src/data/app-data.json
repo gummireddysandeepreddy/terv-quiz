@@ -28,152 +28,152 @@
       "questionCount": 8,
       "icon": "🔢"
     },
-  {
-    "id": 5,
-    "title": "Geometry Quiz",
-    "category": "Math",
-    "questionCount": 12,
-    "icon": "📐"
-  },
-  {
-    "id": 6,
-    "title": "World History Quiz",
-    "category": "History",
-    "questionCount": 20,
-    "icon": "🌍"
-  },
-  {
-    "id": 7,
-    "title": "Chemistry Quiz",
-    "category": "Science",
-    "questionCount": 18,
-    "icon": "⚗️"
-  },
-  {
-    "id": 8,
-    "title": "Physics Quiz",
-    "category": "Science",
-    "questionCount": 22,
-    "icon": "🔭"
-  },
-  {
-    "id": 9,
-    "title": "Biology Quiz",
-    "category": "Science",
-    "questionCount": 16,
-    "icon": "🧬"
-  },
-  {
-    "id": 10,
-    "title": "Geography Quiz",
-    "category": "Geography",
-    "questionCount": 14,
-    "icon": "🗺️"
-  },
-  {
-    "id": 11,
-    "title": "Literature Quiz",
-    "category": "Literature",
-    "questionCount": 10,
-    "icon": "📚"
-  },
-  {
-    "id": 12,
-    "title": "Art Quiz",
-    "category": "Art",
-    "questionCount": 8,
-    "icon": "🎨"
-  },
-  {
-    "id": 13,
-    "title": "Computer Science Quiz",
-    "category": "Technology",
-    "questionCount": 25,
-    "icon": "💻"
-  },
-  {
-    "id": 14,
-    "title": "Sports Quiz",
-    "category": "Sports",
-    "questionCount": 15,
-    "icon": "🏅"
-  },
-  {
-    "id": 15,
-    "title": "General Knowledge Quiz",
-    "category": "General Knowledge",
-    "questionCount": 30,
-    "icon": "🌐"
-  }
+    {
+      "id": 5,
+      "title": "Geometry Quiz",
+      "category": "Math",
+      "questionCount": 12,
+      "icon": "📐"
+    },
+    {
+      "id": 6,
+      "title": "World History Quiz",
+      "category": "History",
+      "questionCount": 20,
+      "icon": "🌍"
+    },
+    {
+      "id": 7,
+      "title": "Chemistry Quiz",
+      "category": "Science",
+      "questionCount": 18,
+      "icon": "⚗️"
+    },
+    {
+      "id": 8,
+      "title": "Physics Quiz",
+      "category": "Science",
+      "questionCount": 22,
+      "icon": "🔭"
+    },
+    {
+      "id": 9,
+      "title": "Biology Quiz",
+      "category": "Science",
+      "questionCount": 16,
+      "icon": "🧬"
+    },
+    {
+      "id": 10,
+      "title": "Geography Quiz",
+      "category": "Geography",
+      "questionCount": 14,
+      "icon": "🗺️"
+    },
+    {
+      "id": 11,
+      "title": "Literature Quiz",
+      "category": "Literature",
+      "questionCount": 10,
+      "icon": "📚"
+    },
+    {
+      "id": 12,
+      "title": "Art Quiz",
+      "category": "Art",
+      "questionCount": 8,
+      "icon": "🎨"
+    },
+    {
+      "id": 13,
+      "title": "Computer Science Quiz",
+      "category": "Technology",
+      "questionCount": 25,
+      "icon": "💻"
+    },
+    {
+      "id": 14,
+      "title": "Sports Quiz",
+      "category": "Sports",
+      "questionCount": 15,
+      "icon": "🏅"
+    },
+    {
+      "id": 15,
+      "title": "General Knowledge Quiz",
+      "category": "General Knowledge",
+      "questionCount": 30,
+      "icon": "🌐"
+    }
   ],
   "friends": [
     {
       "id": 1,
       "name": "Maren Workman",
       "points": 890,
-      "image": "/avatar/profile.svg",
-      "flag": "/avatar/profile-flag.svg"
+      "image": "/images/avatar1.svg",
+      "flag": "/images/flag1.svg"
     },
     {
       "id": 2,
       "name": "Brandon Metrovs",
       "points": 124,
-      "image": "/avatar/profile.svg",
-      "flag": "/avatar/profile-flag.svg"
+      "image": "/images/avatar2.svg",
+      "flag": "/images/flag2.svg"
     },
     {
       "id": 3,
       "name": "Manuela Lipshutz",
       "points": 433,
-      "image": "/avatar/profile.svg",
-      "flag": "/avatar/profile-flag.svg"
+      "image": "/images/avatar3.svg",
+      "flag": "/images/flag3.svg"
     },
     {
       "id": 4,
       "name": "Madelyn Dias",
       "points": 256,
-      "image": "/avatar/profile.svg",
-      "flag": "/avatar/profile-flag.svg"
+      "image": "/images/avatar4.svg",
+      "flag": "/images/flag4.svg"
     },
     {
       "id": 5,
       "name": "Zain Vaccaro",
       "points": 248,
-      "image": "/avatar/profile.svg",
-      "flag": "/avatar/profile-flag.svg"
+      "image": "/images/avatar1.svg",
+      "flag": "/images/flag5.svg"
     },
     {
       "id": 6,
       "name": "Jordan",
       "points": 200,
-      "image": "/avatar/profile.svg",
-      "flag": "/avatar/profile-flag.svg"
+      "image": "/images/avatar2.svg",
+      "flag": "/images/flag1.svg"
     }
-    ],
-    "leaderboard": [
+  ],
+  "leaderboard": [
     {
       "id": 1,
       "name": "Davis",
       "points": 1200,
-      "image": "/avatar/profile.svg",
+      "image": "/images/avatar1.svg",
       "rank": 1,
-      "flag": "/avatar/profile-flag.svg"
+      "flag": "/images/flag1.svg"
     },
     {
       "id": 2,
       "name": "Alena",
       "points": 1150,
-      "image": "/avatar/profile.svg",
+      "image": "/images/avatar2.svg",
       "rank": 2,
-      "flag": "/avatar/profile-flag.svg"
+      "flag": "/images/flag2.svg"
     },
     {
       "id": 3,
       "name": "Craig",
       "points": 1100,
-      "image": "/avatar/profile.svg",
+      "image": "/images/avatar3.svg",
       "rank": 3,
-      "flag": "/avatar/profile-flag.svg"
+      "flag": "/images/flag3.svg"
     },
     {
       "id": 4,
@@ -187,130 +187,129 @@
       "id": 5,
       "name": "Zain Vaccaro",
       "points": 248,
-      "image": "/avatar/profile.svg",
+      "image": "/images/avatar1.svg",
       "rank": 5,
-      "flag": "/avatar/profile-flag.svg"
+      "flag": "/images/flag5.svg"
     },
     {
       "id": 6,
       "name": "Jordan",
       "points": 200,
-      "image": "/avatar/profile.svg",
+      "image": "/images/avatar2.svg",
       "rank": 6,
-      "flag": "/avatar/profile-flag.svg"
+      "flag": "/images/flag1.svg"
     },
     {
       "id": 7,
       "name": "Taylor",
       "points": 180,
-      "image": "/avatar/profile.svg",
+      "image": "/images/avatar3.svg",
       "rank": 7,
-      "flag": "/avatar/profile-flag.svg"
+      "flag": "/images/flag2.svg"
     },
     {
       "id": 8,
       "name": "Morgan",
       "points": 160,
-      "image": "/avatar/profile.svg",
+      "image": "/images/avatar4.svg",
       "rank": 8,
-      "flag": "/avatar/profile-flag.svg"
+      "flag": "/images/flag3.svg"
     },
     {
       "id": 9,
       "name": "Alex",
       "points": 140,
-      "image": "/avatar/profile.svg",
+      "image": "/images/avatar1.svg",
       "rank": 9,
-      "flag": "/avatar/profile-flag.svg"
+      "flag": "/images/flag4.svg"
     },
     {
       "id": 10,
       "name": "Riley",
       "points": 120,
-      "image": "/avatar/profile.svg",
+      "image": "/images/avatar2.svg",
       "rank": 10,
-      "flag": "/avatar/profile-flag.svg"
+      "flag": "/images/flag5.svg"
     },
     {
       "id": 11,
       "name": "Casey",
       "points": 100,
-      "image": "/avatar/profile.svg",
+      "image": "/images/avatar3.svg",
       "rank": 11,
-      "flag": "/avatar/profile-flag.svg"
+      "flag": "/images/flag1.svg"
     },
     {
       "id": 12,
       "name": "Jamie",
       "points": 90,
-      "image": "/avatar/profile.svg",
+      "image": "/images/avatar4.svg",
       "rank": 12,
-      "flag": "/avatar/profile-flag.svg"
+      "flag": "/images/flag2.svg"
     },
     {
       "id": 13,
       "name": "Avery",
       "points": 80,
-      "image": "/avatar/profile.svg",
+      "image": "/images/avatar1.svg",
       "rank": 13,
-      "flag": "/avatar/profile-flag.svg"
+      "flag": "/images/flag3.svg"
     },
     {
       "id": 14,
       "name": "Jordan",
       "points": 70,
-      "image": "/avatar/profile.svg",
+      "image": "/images/avatar2.svg",
       "rank": 14,
-      "flag": "/avatar/profile-flag.svg"
+      "flag": "/images/flag4.svg"
     },
     {
       "id": 15,
       "name": "Peyton",
       "points": 60,
-      "image": "/avatar/profile.svg",
+      "image": "/images/avatar3.svg",
       "rank": 15,
-      "flag": "/avatar/profile-flag.svg"
+      "flag": "/images/flag5.svg"
     },
     {
       "id": 16,
       "name": "Quinn",
       "points": 50,
-      "image": "/avatar/profile.svg",
+      "image": "/images/avatar4.svg",
       "rank": 16,
-      "flag": "/avatar/profile-flag.svg"
+      "flag": "/images/flag1.svg"
     },
     {
       "id": 17,
       "name": "Reese",
       "points": 40,
-      "image": "/avatar/profile.svg",
+      "image": "/images/avatar1.svg",
       "rank": 17,
-      "flag": "/avatar/profile-flag.svg"
+      "flag": "/images/flag2.svg"
     },
     {
       "id": 18,
       "name": "Skyler",
       "points": 30,
-      "image": "/avatar/profile.svg",
+      "image": "/images/avatar2.svg",
       "rank": 18,
-      "flag": "/avatar/profile-flag.svg"
+      "flag": "/images/flag3.svg"
     },
     {
       "id": 19,
       "name": "Tatum",
       "points": 20,
-      "image": "/avatar/profile.svg",
+      "image": "/images/avatar3.svg",
       "rank": 19,
-      "flag": "/avatar/profile-flag.svg"
+      "flag": "/images/flag4.svg"
     },
     {
       "id": 20,
       "name": "Emerson",
       "points": 10,
-      "image": "/avatar/profile.svg",
+      "image": "/images/avatar4.svg",
       "rank": 20,
-      "flag": "/avatar/profile-flag.svg"
+      "flag": "/images/flag5.svg"
     }
   ]
 }
-
