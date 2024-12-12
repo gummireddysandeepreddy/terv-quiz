@@ -11,7 +11,6 @@ export default function Discover() {
   const [activeTab, setActiveTab] = useState('Top');
   const [searchTerm, setSearchTerm] = useState('');
 
-  // Filter data outside the render function
   const filteredQuizzes = appData.quizzes.filter(quiz => quiz.title.toLowerCase().includes(searchTerm.toLowerCase()));
   const filteredFriends = appData.friends.filter(friend => friend.name.toLowerCase().includes(searchTerm.toLowerCase()));
   const filteredCategories = [...new Set(appData.quizzes.map((quiz) => ({ category: quiz.category, icon: quiz.icon })))]
