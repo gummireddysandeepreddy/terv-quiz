@@ -18,7 +18,14 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Implementation Decisions
+
+- Generated random data using GitHub Copilot.
+- Used pre-defined components from [shadcn/ui](https://ui.shadcn.com/).
+- Brought color codes from [Swatchr](https://www.swatchr.app/).
+- Implemented functionalities like "See All", "Find Friends", and tab/section switching on a page.
+- Gathered avatars, flags, and badges from Figma.
+- Implemented search functionality on the `/discover` page.
 
 ## Learn More
 
